@@ -33,3 +33,16 @@ body {
 .space-below {
     margin-bottom: 50px;
 }
+
+.team-photo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.description {
+    margin: 50px;
+    font-size: 20px;
+    text-align: center;
+}
