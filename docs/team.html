@@ -4,8 +4,13 @@
     <title>About Us - Our Lab</title>
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <style>
+        .profiles {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
         .profile {
-            margin-bottom: 20px;
+            text-align: center;
         }
         .profile img {
             width: 150px;
@@ -23,7 +28,6 @@
 <body>
     <div class="nav">
         <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
         <a href="pipelines.html">Pipelines</a>
         <a href="team.html">Team</a>
         <a href="publications.html">Publications</a>
@@ -31,45 +35,47 @@
     </div>
     <div class="content">
         <h2>Meet the team!</h2>
-        <div class="profile">
-            <img src="path/to/michael-johnson.jpg" alt="Michael Johnson">
-            <h3>Michael Johnson</h3>
-            <p>Principal Investigator</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/alexander-haglund.jpg" alt="Alexander Haglund">
-            <h3>Alexander Haglund</h3>
-            <p>Postdoctoral Researcher</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/maria-otero-jimenez.jpg" alt="Maria Otero Jimenez">
-            <h3>Maria Otero Jimenez</h3>
-            <p>Postdoctoral Researcher</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/liv-wiemann.jpg" alt="Liv Wiemann">
-            <h3>Liv Wiemann</h3>
-            <p>PhD student</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/katarina.jpg" alt="Katarina">
-            <h3>Katarina</h3>
-            <p>PhD student</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/parisa-rahbar.jpg" alt="Parisa Rahbar">
-            <h3>Parisa Rahbar</h3>
-            <p>PhD student</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/hun.jpg" alt="Hun">
-            <h3>Hun</h3>
-            <p>Research technician</p>
-        </div>
-        <div class="profile">
-            <img src="path/to/enoch-newman.jpg" alt="Enoch Newman">
-            <h3>Enoch Newman</h3>
-            <p>Data manager</p>
+        <div class="profiles">
+            <div class="profile">
+                <img src="path/to/michael-johnson.jpg" alt="Michael Johnson">
+                <h3>Michael Johnson</h3>
+                <p>Principal Investigator</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/alexander-haglund.jpg" alt="Alexander Haglund">
+                <h3>Alexander Haglund</h3>
+                <p>Postdoctoral Researcher</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/maria-otero-jimenez.jpg" alt="Maria Otero Jimenez">
+                <h3>Maria Otero Jimenez</h3>
+                <p>Postdoctoral Researcher</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/liv-wiemann.jpg" alt="Liv Wiemann">
+                <h3>Liv Wiemann</h3>
+                <p>PhD student</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/katarina.jpg" alt="Katarina Gregorovicsova">
+                <h3>Katarina Gregorovicsova</h3>
+                <p>PhD student</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/parisa-rahbar.jpg" alt="Parisa Rahbar">
+                <h3>Parisa Rahbar</h3>
+                <p>PhD student</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/hun.jpg" alt="Jeong Hun Ko">
+                <h3>Jeong Hun Ko</h3>
+                <p>Research technician</p>
+            </div>
+            <div class="profile">
+                <img src="path/to/enoch-newman.jpg" alt="Enoch Newman">
+                <h3>Enoch Newman</h3>
+                <p>Data manager</p>
+            </div>
         </div>
     </div>
 </body>
